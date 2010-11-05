@@ -1,0 +1,32 @@
+---
+abstract: 'Modules I find handy from time to time...'
+author:
+  - 'Glenn Fowler <cebjyre@cpan.org>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.31
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.102342, CPAN::Meta::Converter version 2.102400'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-BeLike-Cebjyre
+requires:
+  CGI::Session: 0
+  Cache::Memcached::Fast: 0
+  Email::Sender: 0
+  File::chdir: 0
+  Log::Log4perl: 0
+  MIME::Parser: 0
+  Module::Find: 0
+  Net::LDAP: 0
+  Telephony::CountryDialingCodes: 0
+  Template: 0
+  Text::Context: 0
+  Tie::SecureHash: 0
+  XML::Quote: 0
+resources:
+  repository: http://github.com/cebjyre/Task-BeLike-Cebjyre
+version: 0.0.1
