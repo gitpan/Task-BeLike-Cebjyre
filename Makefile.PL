@@ -26,6 +26,7 @@ my %WriteMakefileArgs = (
     'Cache::Memcached::Fast' => '0',
     'Email::Sender' => '0',
     'File::chdir' => '0',
+    'JSON' => '0',
     'Log::Log4perl' => '0',
     'MIME::Parser' => '0',
     'Module::Find' => '0',
@@ -36,7 +37,7 @@ my %WriteMakefileArgs = (
     'Tie::SecureHash' => '0',
     'XML::Quote' => '0'
   },
-  'VERSION' => '0.0.1',
+  'VERSION' => '0.1.0',
   'test' => {
     'TESTS' => 't/*.t'
   }

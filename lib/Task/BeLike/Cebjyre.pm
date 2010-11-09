@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::BeLike::Cebjyre;
 BEGIN {
-  $Task::BeLike::Cebjyre::VERSION = '0.0.1';
+  $Task::BeLike::Cebjyre::VERSION = '0.1.0';
 }
 
 # ABSTRACT: Modules I find handy from time to time...
@@ -20,7 +20,7 @@ Task::BeLike::Cebjyre - Modules I find handy from time to time...
 
 =head1 VERSION
 
-version 0.0.1
+version 0.1.0
 
 =head1 TASK CONTENTS
 
@@ -46,6 +46,8 @@ Also gives us Moose
 
 =head3 L<File::chdir>
 
+=head3 L<JSON>
+
 =head3 L<Log::Log4perl>
 
 =head3 L<Module::Find>
@@ -66,7 +68,7 @@ Task::BeLike::Cebjyre - Modules I find handy from time to time...
 
 =head1 VERSION
 
-version 0.0.1
+version 0.1.0
 
 =head1 AUTHOR
 

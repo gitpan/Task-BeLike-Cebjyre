@@ -18,6 +18,7 @@ requires:
   Cache::Memcached::Fast: 0
   Email::Sender: 0
   File::chdir: 0
+  JSON: 0
   Log::Log4perl: 0
   MIME::Parser: 0
   Module::Find: 0
@@ -29,4 +30,4 @@ requires:
   XML::Quote: 0
 resources:
   repository: http://github.com/cebjyre/Task-BeLike-Cebjyre
-version: 0.0.1
+version: 0.1.0
