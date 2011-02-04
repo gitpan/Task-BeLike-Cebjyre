@@ -24,20 +24,23 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'CGI::Session' => '0',
     'Cache::Memcached::Fast' => '0',
+    'Email::MIME' => '0',
     'Email::Sender' => '0',
     'File::chdir' => '0',
     'JSON' => '0',
     'Log::Log4perl' => '0',
     'MIME::Parser' => '0',
+    'Mail::IMAPClient' => '3.21',
     'Module::Find' => '0',
     'Net::LDAP' => '0',
+    'Net::Server::Mail' => '0',
     'Telephony::CountryDialingCodes' => '0',
     'Template' => '0',
     'Text::Context' => '0',
     'Tie::SecureHash' => '0',
     'XML::Quote' => '0'
   },
-  'VERSION' => '0.1.0',
+  'VERSION' => '0.2.0',
   'test' => {
     'TESTS' => 't/*.t'
   }

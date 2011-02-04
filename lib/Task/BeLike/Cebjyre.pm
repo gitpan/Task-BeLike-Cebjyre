@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::BeLike::Cebjyre;
 BEGIN {
-  $Task::BeLike::Cebjyre::VERSION = '0.1.0';
+  $Task::BeLike::Cebjyre::VERSION = '0.2.0';
 }
 
 # ABSTRACT: Modules I find handy from time to time...
@@ -20,17 +20,25 @@ Task::BeLike::Cebjyre - Modules I find handy from time to time...
 
 =head1 VERSION
 
-version 0.1.0
+version 0.2.0
 
 =head1 TASK CONTENTS
 
 =head2 Email stuff
 
+=head3 L<Email::MIME>
+
 =head3 L<Email::Sender>
+
+Also gives us Moose and Email::Address
+
+=head3 L<Mail::IMAPClient> 3.21
+
+Version 3.21 required because: it introduced xlist_folders
 
 =head3 L<MIME::Parser>
 
-Also gives us Moose
+=head3 L<Net::Server::Mail>
 
 =head2 Data Access
 
@@ -68,7 +76,7 @@ Task::BeLike::Cebjyre - Modules I find handy from time to time...
 
 =head1 VERSION
 
-version 0.1.0
+version 0.2.0
 
 =head1 AUTHOR
 
@@ -76,7 +84,7 @@ Glenn Fowler <cebjyre@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Glenn Fowler.
+This software is copyright (c) 2011 by Glenn Fowler.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
@@ -87,7 +95,7 @@ Glenn Fowler <cebjyre@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Glenn Fowler.
+This software is copyright (c) 2011 by Glenn Fowler.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
