@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::BeLike::Cebjyre;
 BEGIN {
-  $Task::BeLike::Cebjyre::VERSION = '0.2.0';
+  $Task::BeLike::Cebjyre::VERSION = '0.3.0';
 }
 
 # ABSTRACT: Modules I find handy from time to time...
@@ -20,7 +20,7 @@ Task::BeLike::Cebjyre - Modules I find handy from time to time...
 
 =head1 VERSION
 
-version 0.2.0
+version 0.3.0
 
 =head1 TASK CONTENTS
 
@@ -50,6 +50,10 @@ Version 3.21 required because: it introduced xlist_folders
 
 =head3 L<CGI::Session>
 
+=head2 CLI tools
+
+=head3 L<App::Ack>
+
 =head2 Misc
 
 =head3 L<File::chdir>
@@ -76,7 +80,7 @@ Task::BeLike::Cebjyre - Modules I find handy from time to time...
 
 =head1 VERSION
 
-version 0.2.0
+version 0.3.0
 
 =head1 AUTHOR
 

@@ -22,6 +22,7 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Task::BeLike::Cebjyre',
   'PREREQ_PM' => {
+    'App::Ack' => '0',
     'CGI::Session' => '0',
     'Cache::Memcached::Fast' => '0',
     'Email::MIME' => '0',
@@ -40,7 +41,7 @@ my %WriteMakefileArgs = (
     'Tie::SecureHash' => '0',
     'XML::Quote' => '0'
   },
-  'VERSION' => '0.2.0',
+  'VERSION' => '0.3.0',
   'test' => {
     'TESTS' => 't/*.t'
   }
