@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::BeLike::Cebjyre;
 BEGIN {
-  $Task::BeLike::Cebjyre::VERSION = '0.3.0';
+  $Task::BeLike::Cebjyre::VERSION = '0.3.1';
 }
 
 # ABSTRACT: Modules I find handy from time to time...
@@ -10,8 +10,7 @@ BEGIN {
 
 1;
 
-
-
+__END__
 =pod
 
 =head1 NAME
@@ -20,7 +19,7 @@ Task::BeLike::Cebjyre - Modules I find handy from time to time...
 
 =head1 VERSION
 
-version 0.3.0
+version 0.3.1
 
 =head1 TASK CONTENTS
 
@@ -74,25 +73,6 @@ Version 3.21 required because: it introduced xlist_folders
 
 =head3 L<XML::Quote>
 
-=head1 NAME
-
-Task::BeLike::Cebjyre - Modules I find handy from time to time...
-
-=head1 VERSION
-
-version 0.3.0
-
-=head1 AUTHOR
-
-Glenn Fowler <cebjyre@cpan.org>
-
-=head1 COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2011 by Glenn Fowler.
-
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
-
 =head1 AUTHOR
 
 Glenn Fowler <cebjyre@cpan.org>
@@ -105,7 +85,4 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
 

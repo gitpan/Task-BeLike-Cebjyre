@@ -41,7 +41,7 @@ my %WriteMakefileArgs = (
     'Tie::SecureHash' => '0',
     'XML::Quote' => '0'
   },
-  'VERSION' => '0.3.0',
+  'VERSION' => '0.3.1',
   'test' => {
     'TESTS' => 't/*.t'
   }
