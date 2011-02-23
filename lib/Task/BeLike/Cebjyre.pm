@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::BeLike::Cebjyre;
 BEGIN {
-  $Task::BeLike::Cebjyre::VERSION = '0.3.1';
+  $Task::BeLike::Cebjyre::VERSION = '0.4.0';
 }
 
 # ABSTRACT: Modules I find handy from time to time...
@@ -19,7 +19,7 @@ Task::BeLike::Cebjyre - Modules I find handy from time to time...
 
 =head1 VERSION
 
-version 0.3.1
+version 0.4.0
 
 =head1 TASK CONTENTS
 
@@ -44,6 +44,13 @@ Version 3.21 required because: it introduced xlist_folders
 =head3 L<Cache::Memcached::Fast>
 
 =head3 L<Net::LDAP>
+
+=head3 L<MongoDB>
+
+=head3 L<Try::Tiny>
+
+Note: This is used in the test phase of MongoDB but is not
+listed as a prereq yet; should be fixed in MongoDB 0.43.
 
 =head2 The Interwebs
 

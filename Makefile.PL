@@ -33,15 +33,17 @@ my %WriteMakefileArgs = (
     'MIME::Parser' => '0',
     'Mail::IMAPClient' => '3.21',
     'Module::Find' => '0',
+    'MongoDB' => '0',
     'Net::LDAP' => '0',
     'Net::Server::Mail' => '0',
     'Telephony::CountryDialingCodes' => '0',
     'Template' => '0',
     'Text::Context' => '0',
     'Tie::SecureHash' => '0',
+    'Try::Tiny' => '0',
     'XML::Quote' => '0'
   },
-  'VERSION' => '0.3.1',
+  'VERSION' => '0.4.0',
   'test' => {
     'TESTS' => 't/*.t'
   }
