@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::BeLike::Cebjyre;
 BEGIN {
-  $Task::BeLike::Cebjyre::VERSION = '0.4.0';
+  $Task::BeLike::Cebjyre::VERSION = '0.5.0';
 }
 
 # ABSTRACT: Modules I find handy from time to time...
@@ -19,7 +19,7 @@ Task::BeLike::Cebjyre - Modules I find handy from time to time...
 
 =head1 VERSION
 
-version 0.4.0
+version 0.5.0
 
 =head1 TASK CONTENTS
 
@@ -56,9 +56,17 @@ listed as a prereq yet; should be fixed in MongoDB 0.43.
 
 =head3 L<CGI::Session>
 
+=head3 L<Net::OAuth>
+
 =head2 CLI tools
 
 =head3 L<App::Ack>
+
+=head2 Testing
+
+=head3 L<Test::Pod>
+
+=head3 L<Test::Pod::Coverage>
 
 =head2 Misc
 
@@ -79,6 +87,16 @@ listed as a prereq yet; should be fixed in MongoDB 0.43.
 =head3 L<Tie::SecureHash>
 
 =head3 L<XML::Quote>
+
+=head2 My modules
+
+=head3 L<Dist::Zilla::PluginBundle::CEBJYRE>
+
+=head3 L<Net::Google::FederatedLogin>
+
+=head3 L<Test::ConsistentVersion>
+
+=head3 L<Versionify::Dispatch>
 
 =head1 AUTHOR
 

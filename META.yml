@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.31
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110440'
+generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110580'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,6 +17,7 @@ requires:
   App::Ack: 0
   CGI::Session: 0
   Cache::Memcached::Fast: 0
+  Dist::Zilla::PluginBundle::CEBJYRE: 0
   Email::MIME: 0
   Email::Sender: 0
   File::chdir: 0
@@ -26,14 +27,20 @@ requires:
   Mail::IMAPClient: 3.21
   Module::Find: 0
   MongoDB: 0
+  Net::Google::FederatedLogin: 0
   Net::LDAP: 0
+  Net::OAuth: 0
   Net::Server::Mail: 0
   Telephony::CountryDialingCodes: 0
   Template: 0
+  Test::ConsistentVersion: 0
+  Test::Pod: 0
+  Test::Pod::Coverage: 0
   Text::Context: 0
   Tie::SecureHash: 0
   Try::Tiny: 0
+  Versionify::Dispatch: 0
   XML::Quote: 0
 resources:
   repository: http://github.com/cebjyre/Task-BeLike-Cebjyre
-version: 0.4.0
+version: 0.5.0
