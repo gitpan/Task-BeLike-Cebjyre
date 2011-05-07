@@ -5,9 +5,9 @@ author:
 build_requires:
   Test::More: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.31
+  ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110580'
+generated_by: 'Dist::Zilla version 4.200006, CPAN::Meta::Converter version 2.110930'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,6 +15,7 @@ meta-spec:
 name: Task-BeLike-Cebjyre
 requires:
   App::Ack: 0
+  App::Whatsit: 0
   CGI::Session: 0
   Cache::Memcached::Fast: 0
   Dist::Zilla::PluginBundle::CEBJYRE: 0
@@ -43,4 +44,4 @@ requires:
   XML::Quote: 0
 resources:
   repository: http://github.com/cebjyre/Task-BeLike-Cebjyre
-version: 0.5.0
+version: 0.6.0

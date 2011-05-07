@@ -4,7 +4,7 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
@@ -15,7 +15,7 @@ my %WriteMakefileArgs = (
     'Test::More' => '0'
   },
   'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+    'ExtUtils::MakeMaker' => '6.30'
   },
   'DISTNAME' => 'Task-BeLike-Cebjyre',
   'EXE_FILES' => [],
@@ -23,6 +23,7 @@ my %WriteMakefileArgs = (
   'NAME' => 'Task::BeLike::Cebjyre',
   'PREREQ_PM' => {
     'App::Ack' => '0',
+    'App::Whatsit' => '0',
     'CGI::Session' => '0',
     'Cache::Memcached::Fast' => '0',
     'Dist::Zilla::PluginBundle::CEBJYRE' => '0',
@@ -50,7 +51,7 @@ my %WriteMakefileArgs = (
     'Versionify::Dispatch' => '0',
     'XML::Quote' => '0'
   },
-  'VERSION' => '0.5.0',
+  'VERSION' => '0.6.0',
   'test' => {
     'TESTS' => 't/*.t'
   }

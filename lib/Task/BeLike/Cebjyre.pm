@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::BeLike::Cebjyre;
 BEGIN {
-  $Task::BeLike::Cebjyre::VERSION = '0.5.0';
+  $Task::BeLike::Cebjyre::VERSION = '0.6.0';
 }
 
 # ABSTRACT: Modules I find handy from time to time...
@@ -19,7 +19,7 @@ Task::BeLike::Cebjyre - Modules I find handy from time to time...
 
 =head1 VERSION
 
-version 0.5.0
+version 0.6.0
 
 =head1 TASK CONTENTS
 
@@ -97,6 +97,8 @@ listed as a prereq yet; should be fixed in MongoDB 0.43.
 =head3 L<Test::ConsistentVersion>
 
 =head3 L<Versionify::Dispatch>
+
+=head3 L<App::Whatsit>
 
 =head1 AUTHOR
 
