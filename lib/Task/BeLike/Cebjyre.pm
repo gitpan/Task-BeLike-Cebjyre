@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::BeLike::Cebjyre;
 BEGIN {
-  $Task::BeLike::Cebjyre::VERSION = '0.6.0';
+  $Task::BeLike::Cebjyre::VERSION = '0.7.0';
 }
 
 # ABSTRACT: Modules I find handy from time to time...
@@ -19,9 +19,21 @@ Task::BeLike::Cebjyre - Modules I find handy from time to time...
 
 =head1 VERSION
 
-version 0.6.0
+version 0.7.0
 
 =head1 TASK CONTENTS
+
+=head2 CPAN shell
+
+=head3 L<Term::ReadLine::Perl>
+
+=head3 L<YAML>
+
+=head2 CPAN Testing (autotest modules as they are installed)
+
+=head3 L<CPAN::Reporter>
+
+=head3 L<Test::Reporter::Transport::Metabase>
 
 =head2 Email stuff
 
@@ -62,7 +74,9 @@ listed as a prereq yet; should be fixed in MongoDB 0.43.
 
 =head3 L<App::Ack>
 
-=head2 Testing
+=head2 Development and Testing
+
+=head3 L<Dist::Zilla::Plugin::TaskWeaver>
 
 =head3 L<Test::Pod>
 
