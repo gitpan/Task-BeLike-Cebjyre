@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::BeLike::Cebjyre;
 BEGIN {
-  $Task::BeLike::Cebjyre::VERSION = '0.7.0';
+  $Task::BeLike::Cebjyre::VERSION = '0.8.0';
 }
 
 # ABSTRACT: Modules I find handy from time to time...
@@ -19,7 +19,7 @@ Task::BeLike::Cebjyre - Modules I find handy from time to time...
 
 =head1 VERSION
 
-version 0.7.0
+version 0.8.0
 
 =head1 TASK CONTENTS
 
@@ -69,6 +69,8 @@ listed as a prereq yet; should be fixed in MongoDB 0.43.
 =head3 L<CGI::Session>
 
 =head3 L<Net::OAuth>
+
+=head3 L<LWP::Protocol::https>
 
 =head2 CLI tools
 

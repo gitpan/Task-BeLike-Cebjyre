@@ -33,6 +33,7 @@ my %WriteMakefileArgs = (
     'Email::Sender' => '0',
     'File::chdir' => '0',
     'JSON' => '0',
+    'LWP::Protocol::https' => '0',
     'Log::Log4perl' => '0',
     'MIME::Parser' => '0',
     'Mail::IMAPClient' => '3.21',
@@ -56,7 +57,7 @@ my %WriteMakefileArgs = (
     'XML::Quote' => '0',
     'YAML' => '0'
   },
-  'VERSION' => '0.7.0',
+  'VERSION' => '0.8.0',
   'test' => {
     'TESTS' => 't/*.t'
   }
