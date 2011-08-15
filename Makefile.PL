@@ -43,6 +43,7 @@ my %WriteMakefileArgs = (
     'Net::LDAP' => '0',
     'Net::OAuth' => '0',
     'Net::Server::Mail' => '0',
+    'Pod::Coverage::TrustPod' => '0',
     'Telephony::CountryDialingCodes' => '0',
     'Template' => '0',
     'Term::ReadLine::Perl' => '0',
@@ -57,7 +58,7 @@ my %WriteMakefileArgs = (
     'XML::Quote' => '0',
     'YAML' => '0'
   },
-  'VERSION' => '0.8.0',
+  'VERSION' => '0.9.0',
   'test' => {
     'TESTS' => 't/*.t'
   }

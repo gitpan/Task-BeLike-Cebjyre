@@ -1,5 +1,7 @@
 Revision history for Task-BeLike-Cebjyre
 
+0.9.0     2011-08-15 20:42:15 Australia/Sydney
+
 0.8.0     2011-06-20 12:20:17 Australia/Sydney
     Added LWP::Protocol::https (SSL is handy)
 

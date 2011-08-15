@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200007, CPAN::Meta::Converter version 2.110930'
+generated_by: 'Dist::Zilla version 4.200015, CPAN::Meta::Converter version 2.112150'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -35,6 +35,7 @@ requires:
   Net::LDAP: 0
   Net::OAuth: 0
   Net::Server::Mail: 0
+  Pod::Coverage::TrustPod: 0
   Telephony::CountryDialingCodes: 0
   Template: 0
   Term::ReadLine::Perl: 0
@@ -50,4 +51,4 @@ requires:
   YAML: 0
 resources:
   repository: http://github.com/cebjyre/Task-BeLike-Cebjyre
-version: 0.8.0
+version: 0.9.0
