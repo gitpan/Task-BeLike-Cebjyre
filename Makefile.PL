@@ -58,7 +58,7 @@ my %WriteMakefileArgs = (
     'XML::Quote' => '0',
     'YAML' => '0'
   },
-  'VERSION' => '0.9.0',
+  'VERSION' => '0.9.1',
   'test' => {
     'TESTS' => 't/*.t'
   }
