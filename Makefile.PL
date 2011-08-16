@@ -23,6 +23,7 @@ my %WriteMakefileArgs = (
   'NAME' => 'Task::BeLike::Cebjyre',
   'PREREQ_PM' => {
     'App::Ack' => '0',
+    'App::Base64' => '0',
     'App::Whatsit' => '0',
     'CGI::Session' => '0',
     'CPAN::Reporter' => '0',
@@ -58,7 +59,7 @@ my %WriteMakefileArgs = (
     'XML::Quote' => '0',
     'YAML' => '0'
   },
-  'VERSION' => '0.9.1',
+  'VERSION' => '1.0.0',
   'test' => {
     'TESTS' => 't/*.t'
   }

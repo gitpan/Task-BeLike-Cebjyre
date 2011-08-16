@@ -15,6 +15,7 @@ meta-spec:
 name: Task-BeLike-Cebjyre
 requires:
   App::Ack: 0
+  App::Base64: 0
   App::Whatsit: 0
   CGI::Session: 0
   CPAN::Reporter: 0
@@ -51,4 +52,4 @@ requires:
   YAML: 0
 resources:
   repository: http://github.com/cebjyre/Task-BeLike-Cebjyre
-version: 0.9.1
+version: 1.0.0
