@@ -2,24 +2,27 @@
 use strict;
 use warnings;
 
+use Module::Build 0.3601;
 
 
-use ExtUtils::MakeMaker 6.30;
-
-
-
-my %WriteMakefileArgs = (
-  "ABSTRACT" => "Modules I find handy from time to time...",
-  "AUTHOR" => "Glenn Fowler <cebjyre\@cpan.org>",
-  "BUILD_REQUIRES" => {},
-  "CONFIGURE_REQUIRES" => {
-    "ExtUtils::MakeMaker" => "6.30"
+my %module_build_args = (
+  "build_requires" => {
+    "Module::Build" => "0.3601"
   },
-  "DISTNAME" => "Task-BeLike-Cebjyre",
-  "EXE_FILES" => [],
-  "LICENSE" => "perl",
-  "NAME" => "Task::BeLike::Cebjyre",
-  "PREREQ_PM" => {
+  "configure_requires" => {
+    "Module::Build" => "0.3601"
+  },
+  "dist_abstract" => "Modules I find handy from time to time...",
+  "dist_author" => [
+    "Glenn Fowler <cebjyre\@cpan.org>"
+  ],
+  "dist_name" => "Task-BeLike-Cebjyre",
+  "dist_version" => "1.0.2",
+  "license" => "perl",
+  "module_name" => "Task::BeLike::Cebjyre",
+  "recommends" => {},
+  "recursive_test_files" => 1,
+  "requires" => {
     "App::Ack" => 0,
     "App::Base64" => 0,
     "App::Whatsit" => 0,
@@ -59,19 +62,16 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "TEST_REQUIRES" => {
+  "script_files" => [],
+  "test_requires" => {
     "Test::More" => 0
-  },
-  "VERSION" => "1.0.1",
-  "test" => {
-    "TESTS" => "t/*.t"
   }
 );
 
 
-unless ( eval { ExtUtils::MakeMaker->VERSION(6.63_03) } ) {
-  my $tr = delete $WriteMakefileArgs{TEST_REQUIRES};
-  my $br = $WriteMakefileArgs{BUILD_REQUIRES};
+unless ( eval { Module::Build->VERSION(0.4004) } ) {
+  my $tr = delete $module_build_args{test_requires};
+  my $br = $module_build_args{build_requires};
   for my $mod ( keys %$tr ) {
     if ( exists $br->{$mod} ) {
       $br->{$mod} = $tr->{$mod} if $tr->{$mod} > $br->{$mod};
@@ -82,23 +82,6 @@ unless ( eval { ExtUtils::MakeMaker->VERSION(6.63_03) } ) {
   }
 }
 
-unless ( eval { ExtUtils::MakeMaker->VERSION(6.56) } ) {
-  my $br = delete $WriteMakefileArgs{BUILD_REQUIRES};
-  my $pp = $WriteMakefileArgs{PREREQ_PM};
-  for my $mod ( keys %$br ) {
-    if ( exists $pp->{$mod} ) {
-      $pp->{$mod} = $br->{$mod} if $br->{$mod} > $pp->{$mod};
-    }
-    else {
-      $pp->{$mod} = $br->{$mod};
-    }
-  }
-}
+my $build = Module::Build->new(%module_build_args);
 
-delete $WriteMakefileArgs{CONFIGURE_REQUIRES}
-  unless eval { ExtUtils::MakeMaker->VERSION(6.52) };
-
-WriteMakefile(%WriteMakefileArgs);
-
-
-
+$build->create_build_script;

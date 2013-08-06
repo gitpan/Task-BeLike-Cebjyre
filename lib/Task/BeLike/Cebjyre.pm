@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::BeLike::Cebjyre;
 {
-  $Task::BeLike::Cebjyre::VERSION = '1.0.1';
+  $Task::BeLike::Cebjyre::VERSION = '1.0.2';
 }
 
 # ABSTRACT: Modules I find handy from time to time...
@@ -20,7 +20,7 @@ Task::BeLike::Cebjyre - Modules I find handy from time to time...
 
 =head1 VERSION
 
-version 1.0.1
+version 1.0.2
 
 =head1 TASK CONTENTS
 
